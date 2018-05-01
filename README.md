@@ -2,8 +2,11 @@
 My very simple i3blocks configuration
 
 Software : feh i3 i3blocks
+
 Terminal : lxterminal tilda
+
 Theme : arc-theme arc-icon-theme
+
 font : FontAwesome
 
 Sample scripts include
