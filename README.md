@@ -1,7 +1,8 @@
 # slackware-i3blocks
 My very simple i3blocks configuration
 
-Software : feh tilda i3 i3blocks
+Software : feh i3 i3blocks
+Terminal : lxterminal tilda
 Theme : arc-theme arc-icon-theme
 font : FontAwesome
 
