@@ -1,14 +1,9 @@
 #!/bin/sh
 
 setxkbmap fr oss &
-#nm-applet &
 tilda &
 
-#feh --bg-fill $HOME/Images/classic.png &
-#feh --bg-fill $HOME/Images/slackware1.png &
-feh --bg-scale $HOME/Images/officiel.png &
-
-#sh $HOME/.config/polybar/launch.sh &
+feh --bg-scale $HOME/.config/i3/officiel.png &
 
 xautolock -detectsleep -time 15 -locker "~/.local/bin/lockscreen off" -locker "sudo pm-hibernate" -nowlocker "~/.local/bin/lockscreen" &
 
