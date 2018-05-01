@@ -9,7 +9,7 @@ Theme : arc-theme arc-icon-theme
 
 font : FontAwesome
 
-Sample scripts include
+Custom scripts include
 
 Wallpaper made by myself, inspired by the official slackware website background, and officials logos
 
