@@ -13,6 +13,6 @@ Sample scripts include
 
 Wallpaper made by myself, inspired by the official slackware website background, and officials logos
 
-Screenshot
-![screenshot](screenshot.png?raw=true "Screenshot")
+
+![screenshot](screenshot2.png?raw=true "Screenshot")
 
