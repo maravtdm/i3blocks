@@ -1,0 +1,19 @@
+#!/bin/sh
+
+setxkbmap fr oss &
+#nm-applet &
+tilda &
+
+#feh --bg-fill $HOME/Images/classic.png &
+#feh --bg-fill $HOME/Images/slackware1.png &
+feh --bg-scale $HOME/Images/officiel.png &
+
+#sh $HOME/.config/polybar/launch.sh &
+
+xautolock -detectsleep -time 15 -locker "~/.local/bin/lockscreen off" -locker "sudo pm-hibernate" -nowlocker "~/.local/bin/lockscreen" &
+
+# Touchpad
+synclient TapButton1=1
+synclient ClickFinger2=3 TapButton2=3
+synclient VertTwoFingerScroll=1
+synclient PalmDetect=1
