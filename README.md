@@ -1,4 +1,4 @@
-# slackware-i3blocks
+# i3blocks
 My very simple i3blocks configuration
 
 Software : feh i3 i3blocks
