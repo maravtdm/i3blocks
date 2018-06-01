@@ -55,14 +55,27 @@ else:
     FA_PLUG = "<span font='FontAwesome'>\uf1e6</span>"
 
     # stands for using battery
-    FA_BATTERY = "<span font='FontAwesome'>\uf240</span>"
-
+    FA_BATTERY_100 = "<span font='FontAwesome'>\uf240</span>"
+    FA_BATTERY_75 = "<span font='FontAwesome'>\uf241</span>"
+    FA_BATTERY_50 = "<span font='FontAwesome'>\uf242</span>"
+    FA_BATTERY_25 = "<span font='FontAwesome'>\uf243</span>"
+    FA_BATTERY_00 = "<span font='FontAwesome'>\uf244</span>"
     # stands for unknown status of battery
     FA_QUESTION = "<span font='FontAwesome'>\uf00c</span>"
 
 
     if state == "Discharging":
-        fulltext = FA_BATTERY + " "
+        if percentleft < 10:
+            fulltext = FA_BATTERY_00 + " "
+        if percentleft < 25:
+            fulltext = FA_BATTERY_25 + " "
+        if percentleft < 50:
+            fulltext = FA_BATTERY_50 + " "
+        if percentleft < 75:
+            fulltext = FA_BATTERY_75 + " "
+        else:
+            fulltext = FA_BATTERY_100 + " "
+
     elif state == "Full":
         fulltext = FA_PLUG + " "
         timeleft = ""
