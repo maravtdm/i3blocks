@@ -11,7 +11,7 @@ font : FontAwesome
 
 Custom scripts include
 
-Wallpaper made by myself, inspired by the official slackware website background and officials logos
+Wallpaper made by myself, inspired by the official slackware website background and official logo
 
 
 ![screenshot](screenshot2.png?raw=true "Screenshot")
